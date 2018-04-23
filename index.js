@@ -16,7 +16,7 @@ function displayOrderData(data) {
   let size = data.size;
   let crust = data.crust;
   let toppings = data.toppings.map(topping => {
-     `<h5>${topping.amount} ${topping.name}</h5>`;
+    return `<h5>${topping.amount} ${topping.name}</h5>`;
   });
   return (output.innerHTML = `
   <h2>New Pizza Order Number: ${order}</h2>
