@@ -81,18 +81,33 @@ nav ul li {
   font-size: 1.5rem;
 }
 
+#output {
+  text-align: center;
+  background-color: #fdf5e8;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 h1 {
   font-size: 3rem;
+  padding: 0.4rem;
+
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  padding: 0.3rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-style: oblique;
   padding: 1rem;
+}
+
+h5 {
+  font-size: 1.4rem;
 }
 
 .bottom-content {
