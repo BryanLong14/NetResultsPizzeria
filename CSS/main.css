@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:700|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: "Josefin Slab", serif;
+  background-color: #fdf5e8;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 0.8;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 13;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.main-page {
+  position: relative;
+  z-index: 1;
+}
+
+.main-page .background-image {
+  position: absolute;
+  z-index: -1;
+  background: url("../images/BigPizza.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+.main-page .background-image-two {
+  position: absolute;
+  z-index: -1;
+  background: url("../images/brickwall.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 1.5rem;
+  border-color: black;
+  border-style: solid;
+}
+
+nav ul li {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-style: oblique;
+  padding: 1rem;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-content h4 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.title-home-page {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.contact-info {
+  padding: 2rem;
+}
+
+.orders-button {
+  padding: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5rem;
+  background: #ffe;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.orders-button:hover {
+  background-color: #4caf50;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.bottom-spacing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.padding {
+  padding: 0.3rem;
+}
+
+.title-home-page h2 {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 5rem;
+}
+
+.title-home-page th {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 3rem;
+}
+
+.restaurant-name {
+  font-family: "Lobster", cursive;
+  padding: 0.7rem;
+}
