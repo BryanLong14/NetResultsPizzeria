@@ -1,0 +1,35 @@
+[debug] [2018-04-23T17:51:48.119Z] ----------------------------------------------------------------------
+[debug] [2018-04-23T17:51:48.121Z] Command:       /usr/local/Cellar/node/9.8.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-04-23T17:51:48.122Z] CLI Version:   3.17.4
+[debug] [2018-04-23T17:51:48.122Z] Platform:      darwin
+[debug] [2018-04-23T17:51:48.122Z] Node Version:  v9.8.0
+[debug] [2018-04-23T17:51:48.122Z] Time:          Mon Apr 23 2018 11:51:48 GMT-0600 (MDT)
+[debug] [2018-04-23T17:51:48.122Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-23T17:51:48.133Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-23T17:51:48.134Z] > authorizing via signed-in user
+[debug] [2018-04-23T17:51:48.135Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-23T17:51:48.135Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/q4yPPwDm3eizc-fwGZjgyhqqpEPpnLIv8nqySPoKuL8BHJmvY55iZyK4qvGoSyOe',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 23 2018 11:51:48 GMT-0600 (MDT)
+[debug] [2018-04-23T17:51:49.282Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T17:51:49.306Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/netresultspizzeria  
+  
+ Mon Apr 23 2018 11:51:49 GMT-0600 (MDT)
+[debug] [2018-04-23T17:51:49.952Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-23T17:51:49.953Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/netresultspizzeria/tokens  
+  
+ Mon Apr 23 2018 11:51:49 GMT-0600 (MDT)
+[debug] [2018-04-23T17:51:50.687Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'netresultspizzeria'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
+[debug] [2018-04-23T17:51:51.421Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/netresultspizzeria/uploads/-LAncWwAIP_zBm2xWruZ?fileCount=56&message=  
+  
+ Mon Apr 23 2018 11:51:51 GMT-0600 (MDT)
